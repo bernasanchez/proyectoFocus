@@ -1,0 +1,1000 @@
+*{
+    margin: 0;
+    padding: 0;
+}*
+
+/*Estilo para logos,titulos,parrafos*/
+.logo{
+    color: rgb(9, 177, 9);
+    font-style: oblique;
+    font-weight:bold;
+    font-size: 100%;
+    text-align: left;
+    font-family: 'Fugaz One', cursive;
+    width: 100%;
+    height: 100%;
+}
+.titulosPrincipales{
+    color:rgb(45, 161, 45);
+    font-style: oblique;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Fugaz One', cursive;
+    padding: 50px 10px 10px 10px;
+}
+.titulosSecundarios{
+    color:white; 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.titulosTerciarios{
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.contenidoParrafo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:justify;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#textosPrincipales{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.footer1{
+    background-color:rgb(176, 243, 193);
+    height: 100px;
+    margin-top: 300px;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+}
+/* */
+
+/*Background de Paginas del Sitio*/
+.seccionIndex{
+    background-image: url(../multimedia/cf19.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.seccionClases{
+    background-image: url(../multimedia/cf8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.seccionHorarios{
+    background-image: url(../multimedia/cf9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.seccionUbicacion{
+    background-image: url(../multimedia/cf10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.seccionContacto{
+    background-image: url(../multimedia/crossfit6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.seccionGaleria{
+    background-image: url(../multimedia/crossfit5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+/* */
+
+/*Menu de Navegacion*/
+#listaNav{
+    margin: 0;
+    padding: 0;
+    height: 40px;  
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+li{
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+nav ul li a:hover{
+    color:black;
+}
+/* */
+
+img{
+    max-width: 100%;
+}
+
+/*Flex para Actividades Index*/
+#contenedorActividades{
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+#cajaFun{
+    text-align: center;
+    color: white;
+}
+#cajaCross{
+    text-align: center;
+    color: white;
+}
+#cajaYoga{
+    text-align: center;
+    color: white;
+}
+/* */
+
+a{
+    color:rgb(22, 155, 22);
+    text-decoration: none;
+}
+
+/*Formato de Tablas*/
+#tablaFormatoB{
+    border-color: green;
+    border-style: double;
+    border-width: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 400px;
+}
+.tableHead{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: "2px";  
+}
+/* */
+
+/*Botones y Grillas para Promociones 1 - SIN USO*/
+#botonLogin{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(22, 155, 22);      
+}
+#contenedorBotonClase{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+#cajaBotonClaseIndex{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 25px;
+    color:rgb(22, 155, 22); 
+    padding-top: 10px;        
+}
+/*FIN Grilla Botones Sin uso */
+
+
+/*Botones y Grillas para Promociones 2 - EN USO*/
+#contenedorPromoFocus{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#tituloPromoFocus{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 200%;
+    color:rgb(22, 155, 22); 
+    padding-bottom: 30px;
+}
+#cajaBotonClaseOnline{
+    text-align: center ;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 170%;
+    font-weight: bold;
+    font-style: oblique;
+    padding-left: 20px;
+    color:rgb(22, 155, 22); 
+}
+aside div input{
+    font-size: 60%;
+}
+/* */
+
+/*Animaciones Input*/
+input:hover{
+    font-size: 20px;
+    transform:scale(1,1);
+    transition: all 0.5s;
+    background-color: rgb(85, 228, 85);
+}
+/*Animacion Iframe Maps*/
+iframe{
+    width: 600px;
+    transition:5s;
+}
+iframe:hover{
+    width: 1000px;
+
+}
+/* */
+
+/*Grilla General para Todas las Paginas*/
+#grilla{
+    display: grid;
+    height: 3000px;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 20% 20% 35% 15% 5%;
+    grid-template-areas:"header"
+                        "portada"
+                        "seccionPrincipal"
+                        "seccionSecundaria"
+                        "SeccionTerciaria"
+                        "footer";
+}
+/*Background de Colores para Paginas del Sitio*/
+#hijoHeader{
+    background-image: linear-gradient(to bottom,  rgb(169, 255, 169), rgb(98, 179, 98));
+}
+#hijoPortada{
+    background-color: rgb(70, 165, 172);
+    background-size: 100%;
+    height: 100%;
+}
+#hijoSeccionPrincipal{
+    background-image: linear-gradient(to bottom,  rgb(98, 179, 98), rgb(70, 131, 70));
+}
+#hijoSeccionSecundaria{
+    background-image: linear-gradient(to bottom,  rgb(70, 131, 70), rgb(31, 117, 31));
+    
+}
+#hijoSeccionTerciaria{
+    background-image: linear-gradient(to bottom,  rgb(71, 71, 71), rgb(37, 39, 37));
+    
+}
+#hijoFooter{
+    background-image: linear-gradient(to bottom,  rgb(20, 75, 20), rgb(17, 49, 17));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 170%;
+    font-style: oblique;
+    text-align: center;
+    padding-top: 3%;
+}
+/* */
+
+/*Grilla para Seccion Principal Index*/
+#grillaSeccionPrincipal{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "articulo" "fotoPrincipal";                  
+    column-gap: 10px;
+    justify-items: center;
+    align-items: stretch;
+    background-color: rgb(77, 77, 77);
+}
+#articuloPrincipal{
+    grid-area: articulo;
+}
+#hijoFotoPrincipal{
+    height: 90%;
+}
+/* */
+
+
+/*Grilla Dos para Seccion Principal de pagina Clases*/
+#grillaDosClases{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "articulo" "fotoClases";
+    background-color: rgb(77, 77, 77);
+    column-gap: 10px;
+    justify-items:center;
+    align-items:stretch;
+
+}
+#articuloPrincipalClases{
+    grid-area: articulo;
+}
+#fotoPrincipalClases{
+    height: 100%;
+    padding-top: 30px;
+}
+/* */
+
+/*Grilla Tres para Seccion Secundaria de pagina Clases*/
+#seccionTresClases{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 45% 45%;
+    grid-template-areas: "titulo titulo"
+                        "foto 1" "foto2"
+                        "foto 3" "foto4";
+    column-gap: 5px;
+    background-color: black;
+    align-items: center;
+    justify-items: center;
+}
+#tituloSeccionTresClases{
+    grid-area: "titulo";
+}
+#foto1SeccionTres{
+    grid-area: "foto1";
+    background-image: url(../multimedia/fun6.jpg);
+    background-size: cover;
+    width: 95%;
+    height: 95%;
+    font-size: 120%;
+    
+}
+#foto2SeccionTres{
+    grid-area: "foto2";
+    background-image: url(../multimedia/cf16.jpg);
+    background-size: cover;
+    width: 95%;
+    height: 95%;
+    font-size: 120%;
+}
+#foto3SeccionTres{
+    grid-area: "foto3";
+    background-image: url(../multimedia/cf17.jpg);
+    background-size: cover;
+    width: 95%;
+    height: 95%;
+    font-size: 120%;
+}
+#foto4SeccionTres{
+    grid-area: "foto4";
+    background-image: url(../multimedia/yoga2.jpg);
+    background-size: cover;
+    width: 95%;
+    height: 95%;
+    font-size: 120%;
+}
+/* */
+
+/*Grilla Dos para Seccion Principal de pagina Galeria*/
+#grillaDosGaleria{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "articulo" "fotoClases";
+    background-color: rgb(77, 77, 77);
+    column-gap: 10px;
+    justify-items:center;
+    align-items:stretch;
+}
+#articuloPrincipalGaleria{
+    grid-area: articulo;
+}
+#fotoPrincipalGaleria{
+    height: 100%;
+    padding-top: 30px; 
+}
+/* */
+
+/*Grilla Tres (SIN USO) para Seccion Secundaria de pagina Galeria*/
+#grillaTresGaleria{
+    display:grid;
+    height: 90%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "foto1" "foto2" "foto3"
+                        "foto4" "foto5" "foto6";
+    justify-items:center;
+    align-items:stretch;
+    background-color: black;
+}
+#foto1Galeria{
+    width: 80%;
+    height: 80%;
+}
+#foto2Galeria{
+    width: 80%;
+    height: 80%;
+}
+#foto3Galeria{
+    width: 80%;
+    height: 80%;
+}
+#foto4Galeria{
+    width: 80%;
+    height: 80%;
+}
+#foto5Galeria{
+    width: 80%;
+    height: 80%;
+}
+#foto6Galeria{
+    width: 80%;
+    height: 80%;
+}
+.fondoCarruselGaleria{
+    background-color: black;
+}
+/* */
+
+/*Caja Flex para Contacto General en Seccion Terciaria*/
+#cajaContactoGeneral{
+    background-color: rgb(42, 114, 42), rgb(27, 121, 27);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+}
+#hijoRedes{
+    height: 100%;
+    width: 50%;
+    background-color:  rgb(25, 85, 25), rgb(30, 87, 30);
+}
+#hijoFormularioContacto{
+    height: 100%;
+    width: 50%;
+    background-color:  rgb(20, 75, 20), rgb(17, 49, 17);
+    font-size: 60%;
+}
+/* */
+
+
+/*Carousel Seccion secundaria - Galeria*/
+.carousel-item{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 52%;
+}
+/* */
+
+
+/*INICIO MEDIA QUERI HASTA 600px */
+@media only screen and (max-width: 600px){
+    /*INICIO GRILLA GENERAL - TODAS LAS PAGINAS */
+    #grilla{
+        display: grid;
+        height: 3000px;
+        grid-template-columns: 100%;
+        grid-template-rows: 2% 10% 20% 50% 15% 3%;
+        grid-template-areas:"header"
+                            "portada"
+                            "seccionPrincipal"
+                            "seccionSecundaria"
+                            "seccionTerciaria"
+                            "footer";
+    }
+    /* */ 
+    
+    /*Estilo para logos,titulos,parrafos*/
+    .logo{
+        font-size: 80%;
+        color: white;
+        margin-left: 20%;
+    }
+    .titulosPrincipales{
+        font-size: 170%;
+        padding-top: 5%;
+    }  
+    .titulosSecundarios{
+        font-size: 120%;  
+        padding-top: 10px;
+    } 
+    .contenidoParrafo{
+        font-size: 80%;
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 2px;
+    }
+    #textosPrincipales{
+        height: auto;
+        font-size: 90%;
+        padding-top: 5px;
+    }
+    /* */
+
+    /*Background de Paginas del Sitio*/
+    .seccionIndex{
+        background-size:cover;
+        height: 100%;  
+    }
+    .seccionClases{
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionHorarios{
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionUbicacion{
+       
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionContacto{
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionGaleria{
+        background-size:cover;
+        height: 100%;
+    }
+    /* */
+
+    /*Menu Navegacion*/
+    #listaNav{
+        height: 70%;  
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items:flex-start;
+        padding-top: 1px;
+        padding-left: 5px;
+    }
+    li{
+        letter-spacing: 1px;
+    }
+
+    li a{
+        font-size: 60%;
+    }
+    button.btn-outline-success{
+        font-size: 40%
+    }
+    /* */
+
+    /*Grilla para Seccion Principal Index*/
+    #grillaSeccionPrincipal{
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: "articulo" 
+                        "fotoPrincipal";                  
+        column-gap: 10px;
+        justify-items: center;
+        align-items: stretch;
+        background-color: rgb(77, 77, 77);
+    }
+    #articuloPrincipal{
+        grid-area: articulo;
+    }
+    #hijoFotoPrincipal{
+        max-width: 100%;
+        height: 100%;
+    }
+    /* */
+
+    /*Flex para Actividades Index*/
+    #contenedorActividades{
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section section div img{
+        height:320px;
+        width: 320px;
+        border: solid black;
+       
+    }
+
+    /* */
+
+   /*Botones y Grillas para Promociones 1*/
+    #botonLogin{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(22, 155, 22);      
+    }
+    #contenedorBotonClase{
+        height: 150px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    }
+    #cajaBotonClaseIndex{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 25px;
+        color:rgb(22, 155, 22); 
+        padding-top: 10px;        
+    }
+/*Botones y Grillas para Promociones 2*/
+    #contenedorPromoFocus{
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    #tituloPromoFocus{
+        text-align:center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 110%;
+        color:rgb(22, 155, 22); 
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+    #cajaBotonClaseOnline{
+        height: auto;
+        text-align: center ;   
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 90%;
+        font-weight: bold;
+        font-style: oblique;
+        color:rgb(22, 155, 22);
+        padding-bottom: 2px;
+    }
+    aside div input{
+        font-size: 70%;
+    }
+/* */
+
+    /*Caja Flex para Contacto General en Seccion Terciaria*/
+    #cajaContactoGeneral{
+        background-color: rgb(42, 114, 42), rgb(27, 121, 27);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: solid black;
+    }
+    #hijoRedes{
+        height: 100%;
+        width: 50%;
+        background-color:  rgb(25, 85, 25), rgb(30, 87, 30);
+    }
+    #hijoFormularioContacto{
+        height: 100%;
+        width: 50%;
+        background-color:  rgb(20, 75, 20), rgb(17, 49, 17);
+        font-size: 80%;
+    }
+    /* */
+
+    /*Grilla Dos para Seccion Principal de pagina Clases*/
+    #grillaDosClases{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "articulo" 
+                        "fotoClases";
+    background-color: rgb(77, 77, 77);
+    column-gap: 10px;
+    justify-items:center;
+    align-items:stretch;
+
+    }
+    #articuloPrincipalClases{
+    grid-area: articulo;
+    }
+    #fotoPrincipalClases{
+    height: 100%;
+    padding-top: 30px;
+    }
+    /* */
+
+    /*Grilla Tres para Seccion Secundaria de pagina Clases*/
+    #seccionTresClases{
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 5% 10% 10% 10% 10%;
+        grid-template-areas: "titulo"
+                            "foto 1" 
+                            "foto 2"
+                            "foto 3" 
+                            "foto 4";
+        column-gap: 1px;
+        background-color: black;
+        align-items: center;
+        justify-items: center;
+    }   
+    #tituloSeccionTresClases{
+        grid-area: "titulo";
+        font-size: 10%;
+    }
+    #foto1SeccionTres{
+        grid-area: "foto1";
+        background-image: url(../multimedia/fun6.jpg);
+        background-size: cover;
+        width: 95%;
+        height: 95%;
+        font-size: 90%;
+    
+    }
+    #foto2SeccionTres{
+    grid-area: "foto2";
+    background-image: url(../multimedia/cf16.jpg);
+    background-size: cover;
+    width: 95%;
+    height: 95%;
+    font-size: 90%;
+    }
+    #foto3SeccionTres{
+    grid-area: "foto3";
+    background-image: url(../multimedia/cf17.jpg);
+    background-size: cover;
+    width: 95%;
+    height: 95%;
+    font-size: 90%;
+    }
+    #foto4SeccionTres{
+    grid-area: "foto4";
+    background-image: url(../multimedia/yoga2.jpg);
+    background-size: cover;
+    width: 95%;
+    height: 95%;
+    font-size: 90%;
+    }
+/* */
+
+
+
+
+
+    #hijoFooter{
+       height: 100px;
+       font-size: 100%;
+    }
+    #seccionTresClases{
+        display: grid;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-areas: "titulo" 
+                            "foto1" 
+                            "foto2"
+                            "foto 3" 
+                            "foto4";
+    }
+}
+/*FIN MEDIA QUERI HASTA 600px */
+
+/*INICIO MEDIA QUERI MIN 600px */
+@media only screen and (min-width: 600px){
+
+    #grilla{
+        display: grid;
+        height: 3000px;
+        grid-template-columns: 100%;
+        grid-template-rows: 5% 20% 20% 50% 5%;
+        grid-template-areas:"header"
+                            "portada"
+                            "seccionPrincipal"
+                            "seccionSecundaria"
+                            "SeccionTerciaria"
+                            "footer";
+    }
+
+    #logo{
+        color: rgb(9, 177, 9);
+        font-size: 150%;
+        height: 30px;
+        display:inline-block;
+        text-align: center;
+        padding-top: 10px;   
+    }
+
+    #tituloPrincipal{
+        font-size: 250%;
+        padding: 150px 10px 10px 10px;
+    }  
+    .titulosSecundarios{
+        font-size: 170%;  
+    } 
+    .contenidoParrafo{
+        font-size: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    #textosPrincipales{
+        font-size: 90%;
+        padding-top: 20px;
+    }
+
+    .seccionIndex{
+        background-size:cover;
+        height: 100%;  
+    }
+    .seccionClases{
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionHorarios{
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionUbicacion{
+       
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionContacto{
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionGaleria{
+        background-size:cover;
+        height: 100%;
+    }
+    
+    #listaNav{
+        height: 100px;  
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+
+    li{
+        border-style:inset;
+        border-color: rgb(41, 180, 48);
+        text-align: justify;
+    }
+    
+    #contenedorActividades{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    section section div img{
+        height: 360px;
+        width: 360px;
+    }
+
+}
+/*FIN MEDIA QUERI MIN 600px */
+
+/*INICIO MEDIA QUERI MIN 768px */
+@media only screen and (min-width: 768px){
+
+    /*Grilla General Adaptada*/
+    #grilla{
+        display: grid;
+        height: 3000px;
+        grid-template-columns: 100%;
+        grid-template-rows: 5% 25% 25% 35% 10% 5%;
+        grid-template-areas:"header"
+                            "portada"
+                            "seccionPrincipal"
+                            "seccionSecundaria"
+                            "Seccion Terciaria"
+                            "footer";
+    }
+
+    /*Estilo para logos,titulos,parrafos*/
+    #logo{
+        color: rgb(9, 177, 9);
+        font-size: 140%;
+        height: 30px;
+        display:inline-block;
+        text-align: left;
+        padding-top: 10px;   
+    }
+    #tituloPrincipal{
+        font-size: 420%;
+        padding: 150px 10px 10px 10px;
+    }  
+    .titulosSecundarios{
+        font-size: 210%;  
+    } 
+    .contenidoParrafo{
+        color: white;
+        font-size: 120%;
+        text-align:center;
+        padding-top: 20px;
+    }
+    #textosPrincipales{
+        font-size: 100%;
+        padding-top: 20px;
+    }
+
+    /*Adaptacion de background de Img para Paginas del Sitio*/
+    .seccionIndex{
+        background-size:cover;
+        height: 100%;  
+    }
+    .seccionClases{
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionHorarios{
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionUbicacion{
+       
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionContacto{
+        background-size:cover;
+        height: 100%;
+    }
+    .seccionGaleria{
+        background-size:cover;
+        height: 100%;
+    }
+    
+    /* Adaptacion Menu de Navegacion con formatos extra*/
+    #listaNav{
+        height: 70px;  
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+    li{
+        border: none;
+        list-style-type: none;
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    nav ul li a:hover{
+        color:black;
+    }
+    
+    /*Flex para Actividades Index*/
+    #contenedorActividades{
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    } 
+    section section div img{
+        height: 420px;
+        width: 420px;
+        border: solid 5px;
+        border-color: black;
+    }
+
+    
+   
+
+
+
+}
+/*FIN MEDIA QUERI MIN 768px */
