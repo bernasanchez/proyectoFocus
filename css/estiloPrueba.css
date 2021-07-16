@@ -39,7 +39,7 @@
         text-decoration: none; }
         * #grilla #hijoHeader .menu .nav__lista .nav__item {
           height: 40px;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-family: 'Source Sans Pro', sans-serif;
           justify-content: space-between;
           font-size: 18px;
           font-weight: bold;
@@ -181,9 +181,9 @@
           font-weight: bold;
           padding-top: 20px; }
         * #grilla #hijoSeccionPrincipal #grillaSeccionPrincipal #articuloPrincipal .contenidoParrafo {
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-family: 'Source Sans Pro', sans-serif;
           text-align: justify;
-          font-weight: bold;
+          font-weight: inherit;
           padding-top: 20px;
           font-size: 100%;
           color: white; }
@@ -215,7 +215,7 @@
           font-weight: bold;
           padding-top: 20px; }
         * #grilla #hijoSeccionPrincipal #grillaDosClases #articuloPrincipalClases .contenidoParrafo {
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-family: 'Source Sans Pro', sans-serif;
           text-align: center;
           font-weight: bold;
           padding-top: 20px;
@@ -237,7 +237,7 @@
       font-weight: bold;
       padding-top: 20px; }
     * #grilla #hijoSeccionPrincipal #seccionPrincipal #textosPrincipales {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       text-align: center;
       font-weight: bold;
       padding-top: 20px; }
@@ -260,13 +260,13 @@
     * #grilla #hijoSeccionPrincipal .titulosContacto .titulosTerciarios {
       color: black;
       text-align: center;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       font-style: oblique;
       font-size: 20px;
       font-weight: bold;
       padding-top: 20px; }
     * #grilla #hijoSeccionPrincipal .direccionContacto .contenidoParrafo {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       text-align: justify;
       font-weight: bold;
       padding-top: 20px; }
@@ -296,7 +296,7 @@
           font-weight: bold;
           padding-top: 20px; }
         * #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .contenidoParrafo {
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-family: 'Source Sans Pro', sans-serif;
           text-align: center;
           font-weight: bold;
           padding-top: 20px;
@@ -305,7 +305,7 @@
           * #grilla #hijoSeccionPrincipal #grillaDosGaleria #articuloPrincipalGaleria .contenidoParrafo .titulosTerciarios {
             color: black;
             text-align: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Source Sans Pro', sans-serif;
             font-style: oblique;
             font-size: 20px;
             font-weight: bold;
@@ -333,7 +333,7 @@
       font-weight: bold;
       padding-top: 20px; }
     * #grilla #hijoSeccionSecundaria #textosPrincipales {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Source Sans Pro', sans-serif;
       text-align: center;
       font-weight: bold;
       padding-top: 20px; }
@@ -354,7 +354,7 @@
         padding-bottom: 30px; }
       * #grilla #hijoSeccionSecundaria #contenedorPromoFocus #cajaBotonClaseOnline {
         text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
         font-size: 170%;
         font-weight: bold;
         font-style: oblique;
